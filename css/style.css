@@ -1111,7 +1111,7 @@ a.pa_italic:focus {
     min-height: 13em;
     -webkit-appearance: none;
 }
-.contact-wthree-right input[type="submit"] {
+.contact-wthree-right input[type="button"] {
     outline: none;
     color: #fff;
     padding: 0.6em 1em;
@@ -1125,7 +1125,7 @@ a.pa_italic:focus {
 	transition: 0.5s all;
     width: 100%;
 }
-.contact-wthree-right input[type="submit"]:hover {
+.contact-wthree-right input[type="button"]:hover {
     background: none;
     color: #f78800;
 }
@@ -1321,7 +1321,7 @@ h3.agileits-title {
 .contact-wthree-right textarea {
     min-height: 10em;
 }
-.contact-wthree-right input[type="submit"] { 
+.contact-wthree-right input[type="button"] { 
     font-size: 1em; 
 }
 .work, .contact {
@@ -1414,6 +1414,13 @@ body .buttons-wrapper input.w3slider-input:checked ~ label {
 .agile-footer {
     padding-top: 3em;
 } 
+.icon{
+	margin: 0 3px;
+}
+.agileits-img .wthree-pcatn h4 {
+	font-size: 16px;
+	margin: 0px; 
+}
 }
 @media(max-width:384px){
 .banner h2 {
@@ -1430,7 +1437,8 @@ body .buttons-wrapper input.w3slider-input:checked ~ label {
     font-size: 1.2em;
 }
 .agileits-img .wthree-pcatn h4 {
-    font-size: 1em; 
+	font-size: 12px;
+	margin: 0px; 
 }
 .header-w3right { 
     padding: 0;
@@ -1441,11 +1449,14 @@ body .buttons-wrapper input.w3slider-input:checked ~ label {
 h3.agileits-title {
     font-size: 1.4em;
 }
-.contact-wthree-right input[type="submit"] {
+.contact-wthree-right input[type="button"] {
     font-size: 0.9em;
 }
 .contact-wthree-left iframe {
     min-height: 10em;
+}
+.icon{
+	margin: 0 2px;
 }
 } 
 @media(max-width:320px){
@@ -1490,6 +1501,9 @@ ul.address li {
 }
 .contact-wthree-right input[type="text"], .contact-wthree-right input[type="email"] { 
     padding: .6em 0.8em; 
+}
+.icon{
+	margin: 0 2px;
 }
 }
 /*-- //responsive-design --*/
