@@ -1,0 +1,10 @@
+#form[data-loader-type="viewer"] 
+{
+    padding-bottom: 0px; 
+}
+#form {
+    padding-top: 0px;
+}
+#form div[data-role="form-footer"] {
+    display: none;
+    }
